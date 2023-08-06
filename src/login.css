@@ -1,0 +1,104 @@
+.login{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(62, 78, 78);
+    display: flex;
+    align-items: center;
+    background-image: url("./home/cc1.jpeg");
+    background-size: cover;
+    justify-content: center;
+
+}
+
+.loginwrapper{
+    width: 75%;
+    height: 75%;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.loginleft
+{
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.loginright {
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    height: 250px;
+
+}
+.loginlogo{
+    font-size: 70px;
+    font-weight: 800;
+    margin-left: -2px;
+    margin-bottom: 10px;
+    font-family: cursive;
+    color: black;
+}
+.loginDesc{
+    margin-left: 10px;
+    color: rgb(6, 4, 4);
+    font-size: 25px;
+}
+.loginBox{
+    height: 400px;
+    margin-top: 10px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: rgb(4, 17, 28);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    opacity: 78%;
+}
+.logininput{
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid;
+    padding-left: 14px ;
+    font-size: large;
+}
+.logininput:focus{
+    outline: none;
+}
+.loginheading{
+    height:50px;
+    padding: 10px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(16, 47, 37);
+    background-color: rgb(27, 184, 193);
+    font-size: larger;
+    text-align: center;
+    justify-content: center;
+    
+}
+.loginbutton{
+    height: 50px;
+    width: 200px;
+    border-radius: 40px;
+    border: none;
+    margin-left:150px;
+    background-color:rgb(8, 81, 119);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+}
+/* .Createaccount{
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(8, 81, 119);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    cursor: pointer;
+} */
